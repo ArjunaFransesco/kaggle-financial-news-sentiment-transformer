@@ -1,0 +1,6 @@
+{
+  "model": "TF-IDF_Ngram_LogisticRegression",
+  "Test_Accuracy": 1.0,
+  "Weighted_F1": 1.0,
+  "Total_Headlines": 2400
+}
