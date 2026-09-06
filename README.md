@@ -19,7 +19,8 @@ $$	ext{Alpha Signal Score } (lpha_i) = \mathbb{E}[R_{i, t+\Delta t}] - eta_i R
 ### TF-IDF Vectorization Formulation
 Term frequency-inverse document frequency weighting extracts high-information financial n-grams (e.g., *"revenue surges"*, *"SEC investigation"*, *"rate cuts"*):
 
-$$	ext{TF-IDF}(t, d, D) = 	ext{TF}(t, d) 	imes \ln\left(rac{1 + |D|}{1 + |\{d \in D : t \in d\}\|}ight) + 1$$
+$$	ext{TF-IDF}(t, d, D) = 	ext{TF}(t, d) 	imes \ln\left(rac{1 + |D|}{1 + |\{d \in D : t \in d\}\|}
+ight) + 1$$
 
 ---
 
@@ -127,3 +128,6 @@ jupyter notebook notebooks/financial_news_sentiment_analysis.ipynb
 - **Author**: **[Arjuna Fransesco](https://github.com/ArjunaFransesco)**
 - **GitHub Repositories**: [https://github.com/ArjunaFransesco?tab=repositories](https://github.com/ArjunaFransesco?tab=repositories)
 - **Portfolio Website**: [https://github.com/ArjunaFransesco/arjuna-portfolio](https://github.com/ArjunaFransesco/arjuna-portfolio)
+
+
+<!-- Last Maintenance Audit: 2026-09-06 -->
